@@ -207,7 +207,7 @@ function SchedulingSection() {
                           className={`${classes.h6} ${classes.subHeading}`}
                           alignItems="center" flex
                         >
-                          {item.subHeading2} <RightArrow />
+                         <span> {item.subHeading2} <RightArrow /></span>
                         </Link>
                       </Typography>
                     </Grid>
