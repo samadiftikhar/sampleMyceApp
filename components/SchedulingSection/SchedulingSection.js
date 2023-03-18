@@ -200,16 +200,16 @@ function SchedulingSection() {
                     <Typography className={classes.paragraph}>
                       {item.paragraph}
                     </Typography>
-                    <Grid container                           className={`${classes.h6} ${classes.subHeading}`}>
-                      <Typography alignItems="center" flex>
+                    <Grid container>
+                      <Typography alignItems="center" >
                         <Link
                           href={"/readme"}
                           className={`${classes.h6} ${classes.subHeading}`}
                           alignItems="center" flex
                         >
-                          {item.subHeading2} 
+                          {item.subHeading2} <RightArrow />
                         </Link>
-                      </Typography><RightArrow />
+                      </Typography>
                     </Grid>
                   </Box>
                 </motion.div>
